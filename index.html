@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FrontEnd-Email-Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid container-fluid-main" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="col-md-10 col-xs-8 logo-img">
+                    <a class="navbar-brand" href="javascript:void(0)"><img width="173" height="25"
+                            src="assets/PNGs/Logo.png"></a>
+                </div>
+                <div class="col-md-2 col-xs-4 text-right header-icon pr-0">
+                    <img width="" height="25" src="assets/PNGs/icn_search.png">
+                    <img width="" height="25" src="assets/PNGs/icn_person.png">
+                </div>
+            </nav>
+        </div>
+    </div>        
+    <div class="container-fluid container-fluid-main" id="email-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" id="landing-email-header">
+                    <p class="email-head-text mb-0">Search Any Email Address</p>
+                    <p class="email-sub-text"><span>Start Here</span> - Look up the owner's name, photos and online
+                        profiles. See what you find!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid container-fluid-main" id="second-email-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="email-head-text mb-0">Can’t Find The Right Person?</p>
+                    <p class="email-sub-text"><span>Try Again</span> - Make a new search</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid container-fluid-main" id="email-div">
+        <div class="container">
+            <div class="row email-search">
+                <div class="col-md-10">
+                    <input type="text" class="form-control input-lg email-search-input" id="email" placeholder="Email"
+                        autocomplete="off">
+                    <h6 class="invalid-email-text"><span>Please add a valid email address</span></h6>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-lg btn-warning" onclick="getEmailDetails()">Go!</button>
+                </div>
+            </div>
+            <div class="row d-inline-block mt-3">
+                <div class="col-md-12 d-flex mb-5">
+                    <img height="19" src="assets/PNGs/lock.png">&nbsp;&nbsp;<span class="lock-text">Enter Any Email
+                        Address. They won't be notified.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-body" id="page-body">
+        <div class="container">
+            <div class="row reserve-div">
+                <div class="">
+                    <h1>Reverse Email Lookup</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h1>1</h1>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h1>2</h1>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h1>3</h1>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h1>4</h1>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h1>5</h1>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h1>6</h1>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="footer">
+        <div class="row footer-div">
+            <div class="col-md-9">
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <p class="terms-privacy">Terms | Privacy</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

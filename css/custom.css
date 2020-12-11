@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica Neue;
+}
+.container-fluid-main{
+    background-color: #004A80;
+}
+.header-icon img{
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+
+.email-head-text{
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.email-sub-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.email-sub-text span{
+    color: #F6BC25;
+}
+.email-search-input{
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    height: 5.7%;
+    font-family: HelveticaNeue;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.email-search button{
+    width: 100%;
+    padding: 15px;
+}
+.page-body{
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+}
+.reserve-div{
+    padding: 20px;
+}
+.reserve-div h1{
+    text-align: center;
+    color: #004A80;
+}
+.reserve-div p{
+    font-family: HelveticaNeue;
+    font-size: 22px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.numbers h1{
+    background: #004A80;
+    width: 50px;
+    border-radius: 50%;
+    font-family: HelveticaNeue-Bold;
+    font-size: 48px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    text-align: center;
+}
+.numbers h3{
+    font-family: HelveticaNeue-Bold;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+.numbers p{
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+.footer-div {
+    padding: 20px;
+}
+.footer-div .footer-text{
+    padding: 0px 5%;
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.footer-div .terms-privacy{
+    font-family: HelveticaNeue-Bold;
+    font-size: 14px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+.result-header{
+    font-family: HelveticaNeue-Bold;
+    font-size: 52px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.result-text{
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+}
+.lock-text{
+    font-family: HelveticaNeue-Bold;
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    font-weight: bold;
+}  
+.invalid-email-text{
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: inline-block;
+}
+.invalid-email-text span {
+    transform: scaleY(-1);
+    background: #DC0015;
+    border-radius: 3px 3px 0 0;
+    padding: 5px 20px;
+}
+.no-result-div {
+    padding: 10% 0px;
+}
+.load-text {
+    font-family: HelveticaNeue-Bold;
+    font-size: 24px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.loader-main{
+    padding: 10%;
+}
+.result-image{
+    background: #004A80;
+    padding: 20%;
+    text-align: center;
+    border-radius: 50%;
+}
+.result-name{
+    font-family: HelveticaNeue-Bold;
+    font-size: 32px;
+    color: #004A80;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 30px;
+}
+.result-text-p {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+.phone-number-text{
+    color: #004A80 !important;
+}
+.result-headers {
+    font-family: HelveticaNeue-Bold;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+
+/* meadia quaries   */
+
+@media (min-width: 768px) {
+  
+    
+    
+ 
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo-img, .header-icon{
+      width: 50%;
+  }
+  .number-main-div {
+      width: 20%;
+  }
+  .body-right-div{
+      width: 80%;
+  }
+    
+}
