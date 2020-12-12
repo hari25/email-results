@@ -26,7 +26,106 @@
                 </div>
             </nav>
         </div>
-    </div>        
+    </div>
+    <!-- layout when there are no results -->
+    <div class="container-fluid bg-light no-result-div" id="no-result">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="result-header">0 Results</p>
+                    <p class="result-text">Try starting a new search below</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- loader while we get the response from api -->
+    <div class="container-fluid bg-light loader-main" id="loader">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center loader-div">
+                    <img height="154" width="154" src="assets/loading_spinner.gif">
+                    <p class="load-text">Please wait a moment....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- display result when successful -->
+    <div class="container-fluid bg-light" id="result">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="result-header">1 Result</p>
+                    <p class="result-text">Look at the result below to see the details of the person you’re searched
+                        for.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <p class="result-image"><img width="" src="assets/PNGs/icn_person.png"></p>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2 class="result-name" id="result-name">John Smith, 35</h2>
+                                            <p class="result-text-p" id="result-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="row numbers">
+                                                <div class="col-md-12">
+                                                    <h3 class="result-headers">Address</h3>
+                                                    <div id="address-div">
+                                                        <p class="result-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row numbers">
+                                                <div class="col-md-12">
+                                                    <h3 class="result-headers">Phone Numbers</h3>
+                                                    <div id="phone-number-div">
+                                                        <p class="phone-number-text">(555) 555-5555</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="row numbers">
+                                                <div class="col-md-12">
+                                                    <h3 class="result-headers">Email</h3>
+                                                    <p class="result-text-p" id="email-result">loremipsum@dolorsit.com</p>
+                                                 </div>                                               
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row numbers">
+                                                <div class="col-md-12">
+                                                    <h3 class="result-headers">Relatives</h3>
+                                                    <div id="relatives-div">
+                                                        <p class="result-text-p">Jane Smith</p>
+                                                        <p class="result-text-p">John Smith Jr</p>
+                                                    </div>                                                    
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- result -->
+    
     <div class="container-fluid container-fluid-main" id="email-header">
         <div class="container">
             <div class="row">
@@ -72,7 +171,7 @@
         <div class="container">
             <div class="row reserve-div">
                 <div class="">
-                    <h1>Reverse Email Lookup</h1>
+                    <h2>Reverse Email Lookup</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -86,7 +185,7 @@
                 <div class="col-md-6">
                     <div class="row numbers">
                         <div class="col-md-2 number-main-div">
-                            <h1>1</h1>
+                            <h2>1</h2>
                         </div>
                         <div class="col-md-10 body-right-div">
                             <h3>Lorem Ipsum</h3>
@@ -98,33 +197,7 @@
                 <div class="col-md-6">
                     <div class="row numbers">
                         <div class="col-md-2 number-main-div">
-                            <h1>2</h1>
-                        </div>
-                        <div class="col-md-10 body-right-div">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row numbers">
-                        <div class="col-md-2 number-main-div">
-                            <h1>3</h1>
-                        </div>
-                        <div class="col-md-10 body-right-div">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row numbers">
-                        <div class="col-md-2 number-main-div">
-                            <h1>4</h1>
+                            <h2>2</h2>
                         </div>
                         <div class="col-md-10 body-right-div">
                             <h3>Lorem Ipsum</h3>
@@ -138,7 +211,7 @@
                 <div class="col-md-6">
                     <div class="row numbers">
                         <div class="col-md-2 number-main-div">
-                            <h1>5</h1>
+                            <h2>3</h2>
                         </div>
                         <div class="col-md-10 body-right-div">
                             <h3>Lorem Ipsum</h3>
@@ -150,7 +223,33 @@
                 <div class="col-md-6">
                     <div class="row numbers">
                         <div class="col-md-2 number-main-div">
-                            <h1>6</h1>
+                            <h2>4</h2>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h2>5</h2>
+                        </div>
+                        <div class="col-md-10 body-right-div">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row numbers">
+                        <div class="col-md-2 number-main-div">
+                            <h2>6</h2>
                         </div>
                         <div class="col-md-10 body-right-div">
                             <h3>Lorem Ipsum</h3>
@@ -162,7 +261,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="footer">
+    <div class="container-fluid mt-2" id="footer">
         <div class="row footer-div">
             <div class="col-md-9">
                 <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
