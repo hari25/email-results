@@ -33,7 +33,7 @@ $( document ).ready(function() {
                 "Access-Control-Allow-Origin":"*",
                 "Access-Control-Allow-Credentials":"true",
               },
-            url: "https://cors-anywhere.herokuapp.com/https://ltv-data-api.herokuapp.com/api/v1/records.json?email=" + email,
+            url: "https://ltv-data-api.herokuapp.com/api/v1/records.json?email=" + email,
             contentType: "application/json",
             success: function (data) {
                 $("#loader").hide();
